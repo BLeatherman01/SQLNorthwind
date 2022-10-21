@@ -1,0 +1,56 @@
+--1)
+--select * from Customers
+
+--2)
+--select distinct Country From Customers;
+
+--3)
+--select * from Customers
+--where CustomerID Like 'BL%';
+
+--4)
+--select Top 100 * from Orders;
+
+--5)
+--select * from Customers
+--where PostalCode in ('1010', '3012','12209', '05023');
+
+--6)
+--select * from Orders
+--where ShipRegion is not null;
+
+--7)
+--select * from Customers
+--order by country, city;
+
+--8)
+--insert into Customers (CustomerID, CompanyName,ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax)
+--values ( 'refsa','BitCoin', 'Scamy Mcfergerson', 'Scam Artist','1234 Ouch ln', 'Ouchville', 'SP', '04886', 'Space', '8088088088', '1234567890');
+
+--9)
+--update Orders
+--set ShipRegion = 'EuroZone'
+--where ShipCountry = 'France';
+ 
+--10)
+--Delete from [Order Details] where Quantity = '1';
+
+
+--11)
+--select CustomerId from orders
+--where orderID = 10290;
+
+--12)
+--select * from Orders
+--inner join Customers 
+--on Orders.CustomerID = Customer.CustomerID;
+
+--13)
+--Select all FirstName
+--from Employees
+--where ReportsTo = is null;
+
+--14)
+--Select all FirstName
+--from Employees
+--where ReportsTo = '2';
